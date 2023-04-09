@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link rel="stylesheet" href = "style.css"> 
+</head>
+<body>
+    <img class="bg" src="bg.jpg" alt="VIT-Bhopal">
+    <div class="container">
+        <h3>Welcome to VIT Bhopal US Trip form </h3>
+        <p>Enter your details and submit this form to confirm your participation in the trip </p>
+        <form action="index.php" method="post">
+            <input class="door" type="text" name="name" id="name" placeholder="Enter your name "><br>
+            <input class="door" type="text" age="age" id="age" placeholder="Enter your age "><br>
+            <input class="door" type="text" gender="gender" id="gender" placeholder="Enter your gender "><br>
+            <input class="door" type="text" email="email" id="age" placeholder="Enter your email "><br>
+            <input class="door" type="text" phone="phone" id="phone" placeholder="Enter your phone "><br>
+            <textarea class="door" type="desc" id="desc" placeholder="Enter any description" cols="30" rows="10"></textarea><br>
+            <button class="btn">submit</button>
+       
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+<!-- //INSERT INTO `us trip` (`S.No`, `Name`, `Age`, `Gender`, `Email`, `Phone`, `Other`, `Date Time`) VALUES ('1', 'Yashika Nasa', '21', 'Female', 'yashikanasa81@gmail.com', '8076800690', 'nothing much', current_timestamp()); -->
